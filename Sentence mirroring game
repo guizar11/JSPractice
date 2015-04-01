@@ -1,4 +1,4 @@
-var sentence = prompt("Hello and welcome to the \"Mirroring Sentence Game!!!!\" \n\nThe game were you can reverse any sentence you\'ll like..\n\nTry it it\'s so much fun!\n\n\nPlease enter sentence to be reversed:");
+var sentence = prompt("Hello and welcome to the \"Sentence Mirroring Game!!!!\" \n\nThe game were you can reverse any sentence you\'ll like..\n\nTry it it\'s so much fun!\n\n\nPlease enter sentence to be reversed:");
 var charsArray = [];
 charsArray = sentence.split('');
 var reversedSentence = [];
