@@ -1,0 +1,11 @@
+var sentence = prompt("Hello and welcome to the \"Mirroring Sentence Game!!!!\" \n\nThe game were you can reverse any sentence you\'ll like..\n\nTry it it\'s so much fun!\n\n\nPlease enter sentence to be reversed:");
+var charsArray = [];
+charsArray = sentence.split('');
+var reversedSentence = [];
+
+alert("Original sentence: \n" + sentence);
+length = charsArray.length;
+for (var b = 0; b < length; b++) {
+    reversedSentence[b] = charsArray.pop();
+}
+alert(reversedSentence.join(''));
